@@ -1,0 +1,16 @@
+@import '../../scss/common.scss';
+
+$block:'footer';
+
+.#{$block}Container{
+    background: $footer;
+    box-shadow: 0 1px $footer-box-shadow;
+    height: 89px;
+}
+
+.#{$block}Title{
+    color: $footer-text-color;
+    font-size:$footerTitle ;
+    font-family: $medium;
+    padding: 37px;
+}

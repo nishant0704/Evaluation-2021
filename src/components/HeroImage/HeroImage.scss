@@ -1,0 +1,21 @@
+$block:'heroImage';
+
+
+.#{$block}dimension{
+    height: 356px;
+    width: 100%;
+}
+
+@media  only screen and(max-width:1080px){
+    .#{$block}dimension{
+        height: 326px;
+        width: 100%;
+    }    
+}
+
+@media only screen and (max-width:767px){
+    .#{$block}dimension{
+        height: 356px;
+        width: 100%;
+    }
+}

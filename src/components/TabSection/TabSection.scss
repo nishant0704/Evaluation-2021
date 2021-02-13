@@ -1,0 +1,14 @@
+@import '../../scss/common.scss';
+
+$block:'tabSection';
+
+.#{$block}Container{
+    margin: 0 10%;
+}
+
+.#{$block}Options {
+    display: flex;
+    flex-direction: row;  
+    border-bottom: 1px solid $hr;
+    padding-left: 0;
+  }
